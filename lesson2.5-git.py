@@ -54,6 +54,12 @@ def guess_the_number():
   else:
     guess_the_number()
 
+def summa():
+  a = int(input('Введите число A: '))
+  b = int(input('Введите число B: '))
+  print('Сумма', str(a)+'+'+str(b)+'=', a+b)
+  mainMenu()
+
 def mainMenu():
     print('Выберите игру: \n 1 - "Камень, ножницы, бумага" \n 2- "Угадай число"')
     game = int(input())
@@ -63,6 +69,8 @@ def mainMenu():
     elif game == 2:
       print('Игра: угадай число')
       guess_the_number()
+    elif game == 3:
+      summa()
     elif game == 15:
       print('bonus for you')
       ptint('try later', str(game)+'$')
