@@ -71,6 +71,7 @@ def mainMenu():
       guess_the_number()
     elif game == 3:
       print('Выбрано суммирование двух чисел')
+      print('Test git branches')
       summa()
     elif game == 15:
       print('bonus for you')
