@@ -63,7 +63,7 @@ def mainMenu():
       guess_the_number()
     elif game == 15:
       print('bonus for you')
-      ptint('try again')
+      ptint('try again', str(game)+'$')
       mainMenu()
     else:
       print('Ошибка ввода!')
