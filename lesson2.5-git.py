@@ -58,7 +58,6 @@ def summa():
   a = int(input('Введите число A: '))
   b = int(input('Введите число B: '))
   print('Сумма', str(a)+'+'+str(b)+'=', a+b)
-  print('Произведение этих чисел равняется' a * b)
   print('разность этих чисел:', a - b)
   mainMenu()
 
