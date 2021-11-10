@@ -61,6 +61,9 @@ def mainMenu():
       rock_paper_scissors()
     elif game == 2:
       guess_the_number()
+    elif game == 15:
+      print('bonus')
+      mainMenu()
     else:
       print('Ошибка ввода!')
       mainMenu()
