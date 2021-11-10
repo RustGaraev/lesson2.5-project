@@ -50,7 +50,12 @@ def guess_the_number():
   number = int(input('Введите число от 1 до 10: '))
   if number == hidden_number:
     print('Угадал)))')
-    mainMenu()
+    print('Попробуете ещё раз? 1 - играть снова, 2 - выйти в главное меню')
+    a = int(input())
+    if a == 1:
+      guess_the_number()
+    else:
+      mainMenu()
   else:
     guess_the_number()
 
