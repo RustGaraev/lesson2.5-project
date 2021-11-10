@@ -61,9 +61,6 @@ def mainMenu():
       rock_paper_scissors()
     elif game == 2:
       guess_the_number()
-    elif game == 10:
-      print('!!!Вам выпал бонус!!!')
-      mainMenu()
     else:
       print('Ошибка ввода!')
       mainMenu()
