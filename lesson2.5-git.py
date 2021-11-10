@@ -61,6 +61,7 @@ def mainMenu():
       print('Игра: камень, ножницы, бумага')
       rock_paper_scissors()
     elif game == 2:
+      print('Игра: угадай число')
       guess_the_number()
     elif game == 15:
       print('bonus for you')
