@@ -58,6 +58,7 @@ def mainMenu():
     print('Выберите игру: \n 1 - "Камень, ножницы, бумага" \n 2- "Угадай число"')
     game = int(input())
     if game == 1:
+      print('Игра: камень, ножницы, бумага')
       rock_paper_scissors()
     elif game == 2:
       guess_the_number()
