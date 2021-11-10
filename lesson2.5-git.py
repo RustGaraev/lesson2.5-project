@@ -70,6 +70,7 @@ def mainMenu():
       print('Игра: угадай число')
       guess_the_number()
     elif game == 3:
+      print('Выбрано суммирование двух чисел')
       summa()
     elif game == 15:
       print('bonus for you')
